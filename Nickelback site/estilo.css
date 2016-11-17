@@ -1,0 +1,688 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url(images/textures/body1.jpg);
+    font-family: "Century Gothic";
+    
+}
+
+/* BANNER E MENU ------------------------------------------------------------ */
+
+header{
+    background-image: url(images/textures/carbon.png); margin: 0 auto; width: 100%;
+}
+
+#banner{
+    width: 940px;
+    height: 210px;
+    display:block;
+    margin: 0px auto;
+    padding-top: 10px;
+    box-shadow: 0px 0px 200px  #666666; 
+}
+
+nav  {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    box-shadow: -2px 3px 10px black;
+    background-image: url(images/textures/random.png);
+    z-index: 99;
+}
+
+nav ul{
+    list-style:none;
+    background-image: url(images/textures/random.png);
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+#centraliza{
+    margin: 0 230px; /*CENTRALIZA O MENU*/
+} 
+nav ul li{
+    text-decoration: none; 
+    font-size:15pt;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    float:left;
+    width: 200px;
+    height:50px;
+    line-height: 50px;
+    margin: 25px 20px;
+    text-align: center;
+    background-image: url(images/textures/random1.png);
+    box-shadow: 0px 0px 10px black;
+    z-index:99;
+}
+
+nav ul li a{ 
+    text-decoration: none; 
+    font-size:15pt;
+    color: white;
+    font-weight: normal;
+}
+
+nav ul li:hover{
+    background-image: url(images/textures/vichy.png); 
+    text-shadow:0px 0px 10px black; 
+    box-shadow: 0px 0px 10px white;
+}
+
+nav ul li ul{
+    text-align: center;  
+    display:none;
+}
+
+nav ul li:hover ul, nav li.over ul{
+    display:block;
+    box-shadow: 0px 0px 10px black;
+    z-index:99;
+}
+
+nav ul li ul li{
+    display:block; 
+    width:200px; 
+    height: 40px;
+    line-height:40px;
+    margin: 0px auto;
+    z-index: 99;
+    opacity: 0.9;
+}        
+
+nav ul li ul li a{
+    margin: 0 auto;
+    font-size: 13pt;
+    color:white;
+}
+
+nav ul li ul li:hover{
+    text-shadow:0px 0px 10px black;
+    opacity: 1.0;
+}
+
+nav ul li ul li:hover a{
+    color:black;
+}
+
+.titulo{
+    margin: 0 auto;
+    display:block;
+    width:940px;
+    height:50px;
+    line-height:50px;
+    background-image: url('images/textures/random1.png');
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20pt;
+    font-weight: normal;
+    text-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px black;
+}
+
+/* HOME  -------------------------------------------------------------------- */
+
+.home{
+    position:relative;
+    width:940px;
+    height: 710px;
+    background-image: url(images/textures/carbon.png);
+    margin: 0 auto;
+    z-index: 1;
+
+}
+
+.home aside{
+    float: right;
+    width:230px; 
+    height: auto;
+    background-image: url(images/textures/ps.png);
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-bottom: 9px;
+    text-transform: uppercase;
+    font-size: 12pt;
+    color:#1C1C1C;
+}
+
+.home aside p{
+    margin-top: 5px;
+}
+
+.home aside img{
+    width: 80px;
+    height: 80px;
+    margin-top:5px;
+}
+
+#loginbox label{
+    font-size: 11pt;
+    margin-left: 7px;
+}
+
+#loginbox input{
+    margin:5px;
+    margin-left: 10px;
+    margin-right: 0px;
+    height: 22px;
+    border: 1px solid cornflowerblue;
+    border-radius: 3px;
+
+}
+
+
+#loginbox{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.home h2{
+    font-size: 14pt; 
+    margin:10px;
+    margin-top: 10px;
+    font-weight:normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#loginbox h2{
+    font-size: 13pt;
+}
+
+.home article{
+    float: left;
+    width:650px; 
+    height: auto;
+    padding-bottom: 13px;
+    background-image:url(images/textures/ps.png);
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px;
+}
+
+.home article img{
+    margin:20px auto; 
+    box-shadow: 0px 0px 10px black;
+}
+
+.home article p {
+    color:black; 
+    font-size:13pt; 
+    margin:10px;
+}
+
+/* HISTÓRIA ----------------------------------------------------------------*/
+
+#his{
+    position:relative;
+    width:940px;
+    height: auto;
+    background-image: url(images/textures/carbon.png);
+    margin: 0 auto;
+    z-index: 1;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+article{
+    width: auto;
+    height: auto;
+    border: 1px;
+    border-radius: 5px;
+    margin: 20px;
+    background-image: url(images/textures/ps.png);
+    padding-bottom: 1px;
+}
+
+#his article p {
+    font-size: 12pt; 
+    font-weight: normal;
+    margin: 10px;
+}
+
+#his article h2{
+    text-align: center;
+    font-weight: normal;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+i p{margin: 20px;}
+
+/* DISCOGRAFIA ------------------------------------------------------------ */
+
+#discos{
+    position:relative;
+    width:940px;
+    height: auto;
+    padding-top: 1px;
+    background-image: url(images/textures/carbon.png);
+    margin: 0 auto;
+    z-index: 1;
+    padding-bottom: 1px;
+}
+
+#discos article{
+    width: auto;
+    height:auto;
+    background-image: url(images/textures/ps.png);
+    margin:20px;
+    border: 1px;
+    border-radius: 5px;
+    z-index: 5;
+}
+#discos article img{
+    box-shadow: 0px 0px 10px black;
+    margin: 10px;
+    float: left;
+}
+
+#discos article ol{
+    margin: 10px;
+    margin-left: 30px;
+    float:left;
+    font-size: 12pt;
+    text-shadow: 0px 3px 5px gray;
+    margin-bottom: 20px;
+}
+
+#discos article ol li{
+    margin-bottom:5px;
+}
+
+
+#discos article h1{
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 25pt;
+    text-align: center;
+    text-shadow:0px 0px 10px black;
+    font-weight: normal;
+}
+
+.info{
+    padding: 10px;
+    text-align: center;
+    text-shadow:0px 0px 5px gray;
+}
+
+.x{clear: both;}
+
+/*INTEGRANTES --------------------------------------------------------------- */
+
+.int{
+    position:relative;
+    width:940px;
+    height: auto;
+    background-image: url(images/textures/carbon.png);
+    margin: 0 auto;
+    z-index: 1;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+h1,h2,h3{
+    font-weight: normal;
+}
+
+.int article{
+    width: auto;
+    height:auto;
+    background-image: url(images/textures/ps.png);
+    margin: 20px;
+    border:1px;
+    border-radius:5px;
+    padding-bottom: 10px;
+}
+.int article h1{
+    margin: 50px;
+    text-align: center;
+    float: left;
+    font-size: 50pt;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-shadow: 0px 0px 10px black;
+
+}
+.int article p{margin:20px}
+.int article h2{text-align: center;font-weight: normal; margin: 20px}
+.int article img{float: left; margin: 10px; box-shadow: 0px 0px 10px black;}
+
+#shi{
+    margin-top: 10px;
+}
+.stxt p{
+    margin:10px;
+}
+.stxt{
+    margin-top: 20px;
+}
+
+.description p {
+    font-weight: bold;
+}
+
+/* CONTATO ------------------------------------------------------------------ */
+
+#contato{
+    width:940px;
+    height: 457px;
+    background-image: url(images/textures/carbon.png);
+    margin: auto;
+    display: block;
+}
+
+
+.contatos{
+    float: left;
+    width: 440px;
+    height: auto;
+    background-image: url(images/textures/ps.png);
+    margin: 20px auto;
+    border:1px;
+    border-radius: 5px;
+}
+
+#cont1 {
+    margin:20px; 
+    padding-bottom: 25px;
+}
+
+.contatos p{
+    font-size: 12pt; 
+    text-align: center; 
+    margin-top:10px; 
+    font-weight:bold;
+}
+
+.contatos textArea{
+    width: 400px; 
+    height: 130px; 
+    border: 1px solid cornflowerblue; 
+    border-radius: 4px;
+}
+
+.contatos form{
+    margin: 10px;
+}
+
+.contatos h2{
+    margin:0px;
+    text-align: center; 
+    font-weight: normal;
+}
+
+.contatos form input{
+    width: 250px; 
+    height:25px; 
+    margin-left:10px;
+    margin-top:15px; 
+    font-size: 10pt; 
+    border: 1px solid cornflowerblue; 
+    border-radius: 2px;
+}
+
+.contatos form input[type=submit]{
+    display:block;
+    width:70px;
+    height:30px;
+    margin: 10px auto;
+    border: 2px solid cornflowerblue;
+}
+
+#escreva{
+    margin: 10px; 
+    text-align: center;
+}
+
+#cont1 img{
+    display:block;
+    margin:20px auto;
+    box-shadow:0px 0px 10px black;
+}
+
+
+/*LP Fan --------------------------------------------------------------------*/
+
+.lpfan{
+    width:940px;
+    height:auto;
+    background-image: url(images/textures/carbon.png);
+    margin:0 auto;
+    padding: 1px 0px;
+}
+
+.lpfan section{
+    margin:20px 85px;
+    background-image: url(images/textures/ps.png);
+    border: 1px;
+    border-radius: 5px;
+    height: 490px;
+}
+
+.lpfan section form{
+    box-shadow: 0px 0px 10px black;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    margin: 20px 20px;
+    padding: 20px;
+    float: left;
+}
+
+.lpfan section form input{
+    display:block;
+    margin: 5px auto;
+    width: 200px;
+    border: 1px;
+    border-radius: 2px;
+    background-color: white;
+    border: 1px solid #91adc8;
+    text-align: center;
+    padding: 3px;
+}
+
+.lpfan section form label{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13pt;
+}
+
+.lpfan section form input[type=submit] {
+    border: 2px solid #91adc8;
+    width: auto;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5px 10px;
+}
+
+.lpfan section h2{
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.lpfan article h1{
+    display:block;
+    text-align: center;
+    padding-top:10px;
+    font-weight: normal;
+    font-size: 18pt;
+}
+
+.lpfan article h2{
+    font-size:16pt;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.lpfan p{
+    margin: 20px;
+}
+
+.lpfan img{
+    margin:10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+/* ALTERAR CADASTRO --------------------------------------------------------- */
+
+#alteracao{
+    width: 940px;
+    height: auto;
+    background-image: url(images/textures/carbon.png);
+    margin: 0 auto;
+    padding-bottom: 1px;
+}
+
+#alteracao form{
+    background-image: url(images/textures/ps.png);
+    margin: 20px 150px;
+    border: 1px;
+    border-radius: 5px;
+    padding-bottom: 1px;
+    padding-top: 20px;
+}
+
+#alteracao form input{
+    display: block;
+    margin: 20px auto;
+    margin-top: 5px;
+    width: 180px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid cornflowerblue;
+    border-radius: 3px;
+}
+
+#alteracao form input[type=submit]{
+    height: 30px;
+    width: 100px;
+    border: 2px solid cornflowerblue;
+}
+
+#alteracao form label{
+    display:block;
+    text-align: center;
+}
+
+/* ADMINISTRADOR ------------------------------------------------------------ */
+
+#administrador{
+    width: 940px;
+    height: auto;
+    margin: 0 auto;
+    background-image: url(images/textures/carbon.png);
+    padding: 1px 0px;
+}
+
+#administrador section{
+    margin: 20px;
+    background-image: url(images/textures/ps.png);
+    padding: 1px 0px;
+    border: 1px;
+    border-radius: 5px;
+    height: auto;
+}
+
+#administrador section input[type=button]{
+    width:200px;
+    height: 50px;
+    display:block;
+    color: #d55858;
+    background-color: #ffe6e6;
+    border: 3px solid lightcoral;
+    border-radius: 3px;
+    margin: 20px auto;
+}
+
+#administrador section table{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+table{
+    width: 850px;
+}
+
+table tr{
+    height: 20px;
+}
+
+table, th, td{
+    border: 1px solid #363636;
+    border-collapse: collapse;
+    color: #363636;
+}
+
+table td{
+    padding: 10px;
+}
+
+
+/* FOOTER ------------------------------------------------------------------- */
+
+footer{
+    width:100%;
+    height: 100px;
+    box-shadow: 0px 0px 10px black;
+    background-image: url(images/textures/random.png);
+    float: right;
+    margin:0 auto; 
+    z-index: 99;
+}
+
+footer p{
+    text-align: center;
+    color:#D8D8D8;
+    font-size: 8.5pt;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+hr{
+    margin: 10px;
+}
+
+/*------------------------ERRO-----------------------------------------------*/
+
+#erro{
+    width: 500px;
+    height: 200px;
+    border: 10px solid #e74747;
+    background-color: #ffe5e5;
+    margin: 100px auto;
+    opacity: 0.9;
+    border-radius: 20px;
+}
+
+#erro h1{
+    color: #da5d5d;
+    font-size: 28pt;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#erro a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 18pt;
+    background-color: #da5d5d;
+}
+
